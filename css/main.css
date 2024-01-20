@@ -1,0 +1,206 @@
+  
+  /* ######### used a lot colors ########### */
+ 
+:root{
+    --orange: #FF7143;
+    --dark: #19191B;
+    --gray: #696871;
+    --blue: #5454D4;
+    --background-btn: #f2f7fb;
+    --dark-orange: #9f3919;
+    --white: #fff;
+    --card-bg: #f8f8f8;
+}
+
+/* ######## header style start ########### */
+.header{
+    max-width: 1070px;
+    padding-left: 184px;
+    padding-right: 186px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    
+}
+.nav-item{
+    margin-left: 49px;
+}
+.nav-item-btn{
+    margin-left : 159px;
+}
+.nav-link{
+    color: var(--gray);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--dark);
+    border-bottom: 2px solid #5454D4; 
+}
+.nav-link-btn{
+    background-color: var(--orange);font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--white);
+    border: 1px solid var(--orange);
+    padding: 19px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+   
+}
+.nav-link-btn:hover{
+    color: var(--white);
+    background-color: var(--dark-orange);
+    transition: 0.3s ease;
+}
+
+
+/* ########## header style end ######### */
+
+
+/* ######### main style start ######## */
+.wrapper{
+    max-width: 1070px;
+    padding-left: 184px;
+    padding-right: 186px;
+    margin: 0 auto;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.main-text-title{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: var(--dark);
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.main-text-description{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: var(--gray);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.main-btn{
+    display: flex;
+    align-items: center;
+}
+.main-link{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 19px 59px;
+    border-radius: 10px;
+}
+.arrow-down{
+    margin-left: 59px;
+    border: 1px solid #e7e7e7;
+    padding: 18px 19px;
+    border-radius: 50%;
+}
+.main-img{
+    margin-left: 77px;
+    width: 580px;
+    height: 644px;
+}
+/* ######## main style end ########## */
+
+
+/* ######### logo group style start #########*/
+.logo-group{
+    margin-top: 155px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 159px;
+}
+/* ######## logo group style end ############ */
+/* ########## main part-2 style start ######## */
+.main-img-2{
+    margin-top: 15px;
+}
+.main-2{
+   display: flex;
+   align-items: center;
+   margin-bottom: 83px;
+}
+.main-text-2{
+    margin-left: 167px;
+    flex: 0 0 459px;
+}
+.main-text-item-2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: var(--dark);
+    margin-top: 1px;
+    margin-bottom: 30px;
+    
+}
+.main-text-description-2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+.main-btn-2{
+    font-family: sans-serif;  
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--blue);
+    text-decoration: none;
+}
+.main-btn-2:hover{
+    border-bottom: 2px solid var(--blue);
+}
+/* ########### main part-2 style end ############ */
+
+
+/* ######### main part-3 style start ########## */
+.main-3{
+    display: flex;
+    align-items: center;
+}
+.main-text-3{
+    margin-right: 158px;
+    flex: 0 0 459;
+}
+.main-text-item-3{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 57px;
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: 30px;
+}
+.main-text-description-3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray);
+}
+
+/* ########### main part-3 style end */
